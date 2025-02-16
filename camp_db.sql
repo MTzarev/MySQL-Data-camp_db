@@ -45,7 +45,6 @@ insert into rooms(id,occupation,beds_count) values(101,"occupied",3),
 (303,"free",2),
 (304,"free",3),
 (305,"free",3);
-
 insert into campers(first_name, last_name, age,room) values("Simo", "Sheytanov", 20,101),
 ("Roli", "Dimitrova", 27,102),
 ("RoYaL", "Yonkov", 25,301),
