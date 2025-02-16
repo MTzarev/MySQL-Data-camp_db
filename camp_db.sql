@@ -64,7 +64,6 @@ insert into vehicles(driver_id,vehicle_type,passengers) values
 (6,"car",4),
 (7,"car",3),
 (8,"bus",3);
-
 insert into routes(starting_point,end_point,leader_id,route_time) values
 ("Hotel Malyovitsa", "Malyovitsa Peak", 3, '02:00:00'),
 ("Hotel Malyovitsa", "Malyovitsa Hut", 3, '00:40:00'),
