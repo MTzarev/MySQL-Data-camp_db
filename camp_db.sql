@@ -23,7 +23,6 @@ CREATE TABLE campers(
 	CONSTRAINT fk_room_id FOREIGN KEY(room) REFERENCES rooms(id),
   	CONSTRAINT fk_vehicle_id FOREIGN KEY(vehicle_id) REFERENCES vehicles(id) on delete cascade
 );
-
 CREATE TABLE routes(
 	id INT PRIMARY KEY auto_increment,
 	starting_point varchar(30) not null,
