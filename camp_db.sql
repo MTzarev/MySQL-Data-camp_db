@@ -30,7 +30,6 @@ CREATE TABLE routes(
 	route_time TIME NOT NULL,	
 	CONSTRAINT fk_leader_id FOREIGN KEY(leader_id) REFERENCES campers(id)
 );
-
 insert into rooms(id,occupation,beds_count) values(101,"occupied",3),
 (102,"free",3),
 (103,"free",3),
