@@ -55,7 +55,6 @@ insert into campers(first_name, last_name, age,room) values("Simo", "Sheytanov",
 ("Dimitar", "Verbov", 21,301),
 ("Iskren", "Ivanov", 28,302),
 ("Bojo", "Gevechanov", 28,302);
-
 insert into vehicles(driver_id,vehicle_type,passengers) values
 (1,"bus",20),
 (2,"van",10),
